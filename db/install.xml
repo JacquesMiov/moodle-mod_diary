@@ -25,7 +25,7 @@
         <FIELD NAME="entrybgc" TYPE="char" LENGTH="25" NOTNULL="true" DEFAULT="#93FC84" SEQUENCE="false" COMMENT="Overall background color for an entry."/>
         <FIELD NAME="entrytextbgc" TYPE="char" LENGTH="25" NOTNULL="true" DEFAULT="#EEFC84" SEQUENCE="false" COMMENT="Background color for the text of a Diary entry."/>
         <FIELD NAME="enablestats" TYPE="int" LENGTH="1" NOTNULL="true" DEFAULT="1" SEQUENCE="false" COMMENT="Show/hide statistics."/>
-        <FIELD NAME="titleson" TYPE="int" LENGTH="1" NOTNULL="true" DEFAULT="0" SEQUENCE="false" COMMENT="Enable/disable require titles."/>
+        <FIELD NAME="enabletitles" TYPE="int" LENGTH="1" NOTNULL="true" DEFAULT="0" SEQUENCE="false" COMMENT="Enable/disable require titles."/>
         <FIELD NAME="teacheremail" TYPE="int" LENGTH="1" NOTNULL="true" DEFAULT="0" SEQUENCE="false" COMMENT="Enable email now without waiting for max edit time."/>
         <FIELD NAME="studentemail" TYPE="int" LENGTH="1" NOTNULL="true" DEFAULT="0" SEQUENCE="false" COMMENT="Enable email now without waiting for max edit time."/>
         <FIELD NAME="mincharacterlimit" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false" COMMENT="Minimum character limit."/>
